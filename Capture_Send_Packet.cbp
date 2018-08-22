@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Capture_Send_Packet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug">
+				<Option output="bin/Debug/Capture_Send_Packet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="Include" />
+					<Add directory="Include/Include" />
+					<Add directory="Functions" />
+					<Add directory="Tools" />
+					<Add directory="../Capture_Send_Packet" />
+				</Compiler>
+				<Linker>
+					<Add option="-l ws2_32" />
+					<Add library="Lib/Lib/x64/wpcap.lib" />
+					<Add library="Lib/Lib/x64/Packet.lib" />
+					<Add library="Lib/Lib/Packet.lib" />
+					<Add library="Lib/Lib/wpcap.lib" />
+					<Add directory="Lib/Lib/x64" />
+					<Add directory="Lib/Lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Capture_Send_Packet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Functions/Capture.cpp" />
+		<Unit filename="Functions/FuncCS.cpp" />
+		<Unit filename="Functions/GUI.cpp" />
+		<Unit filename="Functions/Send.cpp" />
+		<Unit filename="Functions/functions.h" />
+		<Unit filename="Include/Ethernet.h" />
+		<Unit filename="Include/Include/Packet32.h" />
+		<Unit filename="Include/Include/Win32-Extensions.h" />
+		<Unit filename="Include/Include/bittypes.h" />
+		<Unit filename="Include/Include/ip6_misc.h" />
+		<Unit filename="Include/Include/pcap-bpf.h" />
+		<Unit filename="Include/Include/pcap-int.h" />
+		<Unit filename="Include/Include/pcap-namedb.h" />
+		<Unit filename="Include/Include/pcap-stdinc.h" />
+		<Unit filename="Include/Include/pcap.h" />
+		<Unit filename="Include/Include/pcap/bluetooth.h" />
+		<Unit filename="Include/Include/pcap/bpf.h" />
+		<Unit filename="Include/Include/pcap/can_socketcan.h" />
+		<Unit filename="Include/Include/pcap/dlt.h" />
+		<Unit filename="Include/Include/pcap/export-defs.h" />
+		<Unit filename="Include/Include/pcap/ipnet.h" />
+		<Unit filename="Include/Include/pcap/namedb.h" />
+		<Unit filename="Include/Include/pcap/nflog.h" />
+		<Unit filename="Include/Include/pcap/pcap.h" />
+		<Unit filename="Include/Include/pcap/sll.h" />
+		<Unit filename="Include/Include/pcap/usb.h" />
+		<Unit filename="Include/Include/pcap/vlan.h" />
+		<Unit filename="Include/Include/remote-ext.h" />
+		<Unit filename="Include/arp.h" />
+		<Unit filename="Include/datatype.h" />
+		<Unit filename="Include/hmain.h" />
+		<Unit filename="Include/ip.h" />
+		<Unit filename="Include/tcp.h" />
+		<Unit filename="Lib/Lib/Packet.lib" />
+		<Unit filename="Lib/Lib/wpcap.lib" />
+		<Unit filename="Lib/Lib/x64/Packet.lib" />
+		<Unit filename="Lib/Lib/x64/wpcap.lib" />
+		<Unit filename="Test/Test.cpp" />
+		<Unit filename="Tools/tools.cpp" />
+		<Unit filename="Tools/tools.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

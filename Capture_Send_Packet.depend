@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1520591877 source:e:\code\internet\capture_send_packet\main.cpp
+	<hmain.h>
+
+1521358847 e:\code\internet\capture_send_packet\functions\functions.h
+	<tools.h>
+
+1523767990 e:\code\internet\capture_send_packet\tools\tools.h
+	<stdio.h>
+	<stdlib.h>
+	<pcap.h>
+	<winsock2.h>
+	<arp.h>
+	<Ethernet.h>
+	<ip.h>
+	<datatype.h>
+	<tcp.h>
+
+1521358377 source:e:\code\internet\capture_send_packet\test\test.cpp
+	<hmain.h>
+
+1523768109 source:e:\code\internet\capture_send_packet\functions\capture.cpp
+	<functions.h>
+
+1523686681 source:e:\code\internet\capture_send_packet\functions\gui.cpp
+	<functions.h>
+
+1524204880 source:e:\code\internet\capture_send_packet\functions\send.cpp
+	<functions.h>
+	<remote-ext.h>
+
+1523686762 source:e:\code\internet\capture_send_packet\functions\funccs.cpp
+	<functions.h>
+
+1520581577 e:\code\internet\capture_send_packet\include\include\pcap.h
+	<pcap/pcap.h>
+
+1520581577 e:\code\internet\capture_send_packet\include\include\pcap\pcap.h
+	<pcap/export-defs.h>
+	<pcap-stdinc.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/time.h>
+	<pcap/bpf.h>
+	<stdio.h>
+	<remote-ext.h>
+
+1495179026 e:\code\internet\capture_send_packet\include\include\pcap\export-defs.h
+
+1495179026 e:\code\internet\capture_send_packet\include\include\pcap-stdinc.h
+	<winsock2.h>
+	<fcntl.h>
+	<time.h>
+	<io.h>
+	<ws2tcpip.h>
+	<inttypes.h>
+	<stdint.h>
+
+1520581577 e:\code\internet\capture_send_packet\include\include\pcap\bpf.h
+	<pcap/export-defs.h>
+	<pcap/dlt.h>
+
+1495179026 e:\code\internet\capture_send_packet\include\include\pcap\dlt.h
+
+1495179026 e:\code\internet\capture_send_packet\include\include\remote-ext.h
+
+1526444595 source:e:\code\internet\capture_send_packet\tools\tools.cpp
+	<tools.h>
+
+1521356961 e:\code\internet\capture_send_packet\include\arp.h
+	<datatype.h>
+
+1523607651 e:\code\internet\capture_send_packet\include\datatype.h
+
+1520922125 e:\code\internet\capture_send_packet\include\ethernet.h
+	<datatype.h>
+
+1523686534 e:\code\internet\capture_send_packet\include\ip.h
+	<datatype.h>
+
+1521443909 e:\code\internet\capture_send_packet\include\hmain.h
+	<Functions/functions.h>
+
+1520908310 e:\code\internet\capture_send_packet\include\tcp.h
+	<datatype.h>
+
